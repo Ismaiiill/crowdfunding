@@ -1,0 +1,431 @@
+.navbarr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #f8f8f8; /* Light background */
+    color: #333; /* Dark text */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    fill: #555; /* Grey logo icon */
+  }
+  
+  .logo span {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 0.95em;
+    color: #666;
+  }
+  
+  .nav-links li:hover {
+    color: #333;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .search-button svg {
+    width: 20px;
+    height: 20px;
+    fill: #666;
+  }
+  
+  .search-button:hover svg {
+    fill: #333;
+  }
+  
+  .search-input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.95em;
+    margin-left: 20px;
+    outline: none;
+    width: 200px; /* Adjust width as needed */
+    opacity: 0;
+    visibility: hidden;
+    position: absolute; /* Initially hidden off-screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .search-input.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .navbarr.search-active {
+    /* You can add styles to the navbarr when search is active if needed */
+  }
+  
+  .blurry-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    z-index: 10; /* Ensure it's above other content */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .navbar.search-active .blurry-background {
+    opacity: .5;
+    visibility: visible;
+  }
+
+
+
+
+
+
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background */
+  }
+  
+  .post-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling if needed for more than 2 cards */
+  }
+  
+  .posst-card {
+    background-color: #d6d5d5;
+    border: 1px dotted #9f9e9e; /* Border around the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1300px; /* Adjust card width as needed */
+    height: 500px; /* Adjust card height as needed */
+    display: flex;
+    flex-direction: row; /* Image and content side by side */
+    overflow: hidden;
+  }
+  
+  .image-blog-container {
+    /* flex: 0 0 250px; Fixed width for the image */
+    overflow: hidden;
+    width: 150%;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .blog-content {
+    padding: 40px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eae9e9;
+  }
+  
+  .post-title {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 0.9em;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder for author image */
+    margin-right: 8px;
+  }
+  
+  .author-name {
+    font-weight: bold;
+  }
+  
+  .post-date {
+    /* Style for the date */
+  }
+  
+  .blog-post-description {
+    padding: 50px 0;
+    font-size: 1em;
+    line-height: 1.4;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .read-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    align-self: flex-start;
+  }
+  
+  .read-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .nav-button:hover {
+    background-color: #ccc;
+  }
+  
+  .nav-button:disabled {
+    background-color: #eee;
+    color: #999;
+    cursor: not-allowed;
+  }
+
+
+  /* gridpostcard ar jonno */
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    
+    padding: 20px;
+    background-color: #ffffff; /* Light background for the grid */
+    gap:100px;
+    margin: 50px ; /* Margin around the grid */
+  }
+  
+  .single-card-row-grid { 
+    background-color: #fafafa;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Image on top, content below */
+  }
+  
+  .grid-post-card {
+    background-color: #fafafa;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Image on top, content below */
+  }
+  
+  .grid-image-container {
+    width: 100%;
+    aspect-ratio: 2 / 1; /* Adjust aspect ratio as needed */
+    overflow: hidden;
+    height: 400px;
+  }
+  
+  .grid-post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .grid-content {
+    padding: 15px;
+  }
+  
+  .grid-post-title {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .grid-post-subtitle {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .grid-post-meta {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+  .grid-post-date {
+    margin-right: 10px;
+  }
+  
+  .grid-post-read-time {
+    /* Style for read time if needed */
+  }
+  
+
+
+
+
+  /* Join our mission */
+  .subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    padding: 40px;
+    /* background-color: #f9f9f9; Light grey background */
+    font-family: sans-serif; /* Basic font */
+    width: 800px; /* Limit width for readability */
+    margin: 40px auto; /* Center the container on the page */
+  }
+  
+  .h11 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+  
+  .description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .input-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  input[type="email"] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 32px); /* Adjust for padding and border */
+    font-size: 1em;
+    outline: none;
+  }
+  
+  .required-indicator {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .consent-text {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .privacy-link:hover {
+    text-decoration: underline;
+  }
+  
+  .subscribe-button {
+    background-color: #222; /* Dark background for button */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #555;
+  }
+  
+  .error-message {
+    color: #dc3545; /* Red color for error */
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: #28a745; /* Green color for success */
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  

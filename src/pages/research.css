@@ -1,0 +1,551 @@
+/* ResearchSection.css */
+
+.researchhh-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    background-color: rgb(207, 204, 204) ;
+    color: #000;
+    /* background-image: url("/bg-pattern.svg");  Optional subtle dotwave pattern */
+    /* background-size: cover;
+    background-repeat: no-repeat; 
+    flex-wrap: wrap; */
+    gap: 60px;
+  }
+  
+  .researchhh-content {
+    flex: 1 1 50%;
+    max-width: 600px;
+  }
+  
+  .researchhh-title {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .researchhh-description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  
+  .researchhh-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .researchhh-btn {
+    background-color: transparent;
+    border: 1px solid #444;
+    padding: 14px 24px;
+    border-radius: 999px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .researchhh-btn:hover {
+    background-color: #888;
+    border-color: #888;
+  }
+  
+  .researchhh-image {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+  
+  .researchhh-image img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+
+
+
+
+/* ResearchPrinciples.css */
+
+.principles-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 60px;
+    background-color:rgb(207, 204, 204) ;
+    color: #000;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  
+  .principles-text {
+    flex: 1 1 50%;
+    max-width: 600px;
+  }
+  
+  .principles-text h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .principles-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  
+  .principles-list {
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  
+  .principle-item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px dotted #333;
+    padding-bottom: 14px;
+  }
+  
+  .plus-icon {
+    font-size: 24px;
+    margin-right: 16px;
+    font-weight: 300;
+    color: #000;
+  }
+  
+  .principle-text {
+    color: #000;
+    font-weight: 300;
+  }
+
+
+
+
+/* state ar new.css */
+
+  .principles-list {
+    /* margin-top: 30px; */
+  }
+  
+  .principle-item {
+    /* margin-bottom: 25px; */
+    border-bottom: 1px dashed #333;
+    padding-bottom: 20px;
+  }
+  
+  .principle-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+  }
+  
+  .principle-header .icon {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+  }
+  
+  .principle-header h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000;
+  }
+  
+  .principle-description {
+    margin-left: 32px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #000;
+    max-width: 600px;
+  }
+
+
+
+
+/* ResearchGrid.css */
+
+
+
+.research-team-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .research-team-titles { 
+   font-size: 18px;
+   padding-left: 30PX;
+   font-weight: 350;
+   letter-spacing: 2px;
+  }
+   
+  .research-team-underline{
+    margin-left: 30px;
+    /* margin-right: 200px; */
+    width: 95%;
+    height: 1px;
+    background: #c4c2c2;
+    margin-bottom: 15px;
+  }
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    background-color: #fafafa;
+    /* background-color: #a96262; */
+    height: 500px;
+
+  }
+  
+  .team-card {
+    flex: 1 2 300px;
+    border: 1px dashed #ccc;
+    padding: 20px;
+    background-color: #fff;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .team-card h3 {
+    font-size: 20px;
+    margin: 0 0 4px;
+    font-weight: 500;
+  }
+  
+  .team-card h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .team-card ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 16px;
+  }
+  
+  .team-card ul li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+    color: #111;
+  }
+
+
+
+
+
+/* Reference ar jonno */
+.reference-team-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .reference-team-titles { 
+   font-size: 18px;
+   padding-left: 30PX;
+   font-weight: 350;
+   letter-spacing: 2px;
+  }
+   
+  .reference-team-underline{
+    margin-left: 30px;
+    /* margin-right: 200px; */
+    width: 95%;
+    height: 1px;
+    background: #c4c2c2;
+    margin-bottom: 15px;
+  }
+
+
+
+  /* speaker series */
+  .speaker-section {
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .left-title {
+    flex: 1;
+  }
+  
+  .left-title h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .talks-list {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .talk-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-color: #f8f8f8;
+    padding: 16px 20px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+    color: #000;
+  }
+  
+  .talk-item:hover {
+    background-color: #eee;
+  }
+  
+  .talk-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1rem;
+  }
+  
+  .video-icon {
+    font-size: 1.2rem;
+  }
+  
+  .external-icon {
+    font-size: 0.9rem;
+  }
+  
+
+/* Recent Talks */
+
+  .recent-talk-section {
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .recent-talk-left-title {
+    flex: 1;
+  }
+  
+  .recent-talk-left-title h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .recent-talk-talks-list {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .recent-talk-talk-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-color: #f8f8f8;
+    padding: 16px 20px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+    color: #000;
+  }
+  
+  .recent-talk-talk-item:hover {
+    background-color: #eee;
+  }
+  
+  .recent-talk-talk-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1rem;
+  }
+  
+  .recent-talk-video-icon {
+    font-size: 1.2rem;
+  }
+  
+  .recent-talk-external-icon {
+    font-size: 0.9rem;
+  }
+
+
+
+
+/* Publications */
+
+.publications-section {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.publications-left-title {
+  flex: 1;
+}
+
+.publications-left-title h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.publications-talks-list {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.publications-talk-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: #f8f8f8;
+  padding: 16px 20px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+  color: #000;
+}
+
+.publications-talk-item:hover {
+  background-color: #eee;
+}
+
+.publications-talk-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.1rem;
+}
+
+.publications-video-icon {
+  font-size: 1.2rem;
+}
+
+.publications-external-icon {
+  font-size: 0.9rem;
+}
+
+
+
+/* Awards */
+
+.awards-section {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.awards-left-title {
+  flex: 1;
+}
+
+.awards-left-title h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.awards-talks-list {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+
+
+/* ata new ta */
+.award-section {
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+  color: #111;
+}
+
+.person-section {
+  margin-bottom: 40px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+
+.person-name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.award-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.award-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.trophy-icon {
+  margin-right: 10px;
+  color: #333;
+}
+
+.award-title {
+  font-weight: bold;
+  color: #0074cc;
+  text-decoration: none;
+}
+
+.award-title:hover {
+  text-decoration: underline;
+}
+
+.award-details {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.award-details li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+

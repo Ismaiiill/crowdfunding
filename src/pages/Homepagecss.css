@@ -1,0 +1,976 @@
+
+
+ /* investor section */
+
+
+ .investors-section {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.investors-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.investors-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+
+.investors-underline {
+  margin-left: 30px;
+  /* margin-right: 200px; */
+  width: 95%;
+  height: 1px;
+  background: #c4c2c2;
+  margin-bottom: 15px;
+}
+
+.investors-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.investor-logo {
+  max-width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.funding-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 15px;
+  padding-bottom: 30px;
+
+}
+
+.funding-text a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.funding-text a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Research section */
+
+.research-container {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.research-content {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  margin: auto;
+  background-color: #fff;
+}
+.research-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* .research-title { 
+ font-size: 14px;
+}
+ */
+.research-underline{
+  margin-left: 30px;
+  /* margin-right: 200px; */
+  width: 95%;
+  height: 1px;
+  background: #c4c2c2;
+  margin-bottom: 15px;
+}
+.research-para{
+  max-width: 400px;
+  height: 600px;
+}
+
+.research-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.research-title {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.research-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+.research-button {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.research-button:hover {
+  background: #f5f5f5;
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+.research-image img {
+  width: 800px;
+  height: auto;
+}
+
+
+
+/* ecosystem section */
+
+
+.ecosystemm-container {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ecosystemm-content {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  margin: auto;
+  background-color: #fff;
+}
+
+
+.ecosystem-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.ecosystem-titlee { 
+ font-size: 50px;
+ font-weight: 300;
+ /* padding-top: -10px; */
+}
+
+.ecosystem-underline{
+  margin-left: 30px;
+  /* margin-right: 200px; */
+  width: 95%;
+  height: 1px;
+  background: #c4c2c2;
+  margin-bottom: 15px;
+}
+.ecosystemm-para{
+  width: 400px;
+  height: 600px;
+}
+
+.ecosystem-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.ecosystem-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.ecosystem-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+.ecosystem-button {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.ecosystem-button:hover {
+  background: #f5f5f5;
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+.ecosystem-image img {
+  width: 800px;
+  height: auto;
+}
+
+
+/* blockchain-supercomputer */
+
+
+.blockchain-container {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://framerusercontent.com/images/qFn2BDpLEF2amsqQg3EWfguL4Ds.jpg?scale-down-to=2048");
+  background-size: cover;
+  background-position: center;
+}
+
+.blockchain-content {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 50px; */
+  margin: auto;
+  /* background-color: #fff; */
+}
+.blockchain-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.blockchain-titles { 
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+
+.blockchain-titlee { 
+ color: white;
+ font-size: 50px;
+ font-weight: 300;
+ /* padding-top: -10px; */
+}
+
+.blockchain-underline{
+  margin-left: 30px;
+  /* margin-right: 200px; */
+  width: 95%;
+  height: 1px;
+  background: #333232;
+  margin-bottom: 15px;
+}
+.blockchain-para{
+  max-width: 400px;
+  height: 600px;
+}
+
+.blockchain-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.blockchain-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.blockchain-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+.blockchain-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.blockchain-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+.blockchain-image img {
+  width: 800px;
+  height: auto;
+}
+
+
+
+
+
+
+
+/* A supercomputer network */
+.network-container {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://framerusercontent.com/images/cv73xPUWk40CxFDckba2DuXYY.jpg?scale-down-to=2048");
+  background-size: cover;
+  background-position: center;
+}
+
+.network-content {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 50px; */
+  margin: auto;
+  /* background-color: #fff; */
+}
+.network-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.network-titles { 
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+
+.network-titlee { 
+ color: white;
+ font-size: 50px;
+ font-weight: 300;
+ /* padding-top: -10px; */
+}
+
+.network-underline{
+  margin-left: 30px;
+  /* margin-right: 200px; */
+  width: 95%;
+  height: 1px;
+  background: #333232;
+  margin-bottom: 15px;
+}
+.network-para{
+  max-width: 400px;
+  height: 600px;
+}
+
+.network-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.network-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.network-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+.network-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.network-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+.network-image img {
+  width: 800px;
+  height: auto;
+}
+
+
+
+
+/* A supercomputer engine */
+
+.engine-container {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://framerusercontent.com/images/cv73xPUWk40CxFDckba2DuXYY.jpg?scale-down-to=2048");
+  background-size: cover;
+  background-position: center;
+}
+
+.engine-content {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 50px; */
+  margin: auto;
+  /* background-color: #fff; */
+}
+.engine-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.engine-titles { 
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+
+.engine-titlee { 
+ color: white;
+ font-size: 50px;
+ font-weight: 300;
+ /* padding-top: -10px; */
+}
+
+.engine-underline{
+  margin-left: 30px;
+  /* margin-right: 200px; */
+  width: 95%;
+  height: 1px;
+  background: #333232;
+  margin-bottom: 15px;
+}
+.engine-para{
+  max-width: 400px;
+  height: 600px;
+}
+
+.engine-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.engine-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.engine-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+.engine-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.engine-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+.engine-image img {
+  width: 800px;
+  height: auto;
+}
+
+
+
+/* Nexus concentrates the world’s compute power into a single Layer 1 */
+
+.layer-one-container {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: url("../../public/1st.avif") no-repeat center center;
+  background-size: cover;
+  
+}
+
+.layer-one-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.layer-one-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Slight overlay for text readability */
+  z-index: 2;
+
+}
+
+.layer-one-text {
+  position: relative;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  max-width: 800px;
+  line-height: 0.9;
+  font-size: 50px;
+  font-weight: 300;
+  /* padding-top: -10px; */
+}
+
+
+/* Ultra-high performance */
+
+.performance-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/wZrePuCAdLjXtxXdafC0FeuI.gif?scale-down-to=1024");
+  background-size: cover;
+  background-position: center;
+}
+
+.performance-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.performance-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay for better readability */
+  z-index: 2;
+}
+
+.performance-content {
+  position: relative;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  width: 568px;
+  padding: 20px;
+}
+
+.performance-content h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.performance-content .highlight {
+  font-weight: 700;
+}
+
+.performance-content p {
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 1.6;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+
+/* Nexus OS:  */
+
+.nexuss-container {
+  position: relative;
+  width: 100%;
+  max-height: 1800px;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+/* Banner Section */
+.nexus-banner {
+  position: relative;
+  height: 340px;
+  width: 70%;
+  max-width: 1400px;
+  margin-top: 50px;
+  background-image: url("http://framerusercontent.com/images/cv73xPUWk40CxFDckba2DuXYY.jpg?scale-down-to=2048");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+}
+
+.banner-image {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+
+.bannerr-content {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.bannerr-content p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height:.6 ;
+}
+
+.watch-button {
+  margin-top: 10px;
+  background: rgba(0, 162, 255, 0.8);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.watch-button:hover {
+  background: rgba(0, 162, 255, 1);
+}
+
+/* Content Section */
+.nexuss-content {
+  text-align: center;
+  max-width: 900px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nexuss-content h1 {
+  font-size: 50px;
+  line-height: .9;
+  font-weight: 300;
+}
+
+.nexuss-content .highlight {
+  font-weight: 700;
+}
+
+.nexuss-content .description {
+  font-size: 18px;
+  /* margin-top: 30px; */
+  opacity: 1;
+  width: 80%;
+}
+
+/* Connect Button */
+.connect-button {
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.connect-button span {
+  font-size: 18px;
+}
+
+.connect-button:hover {
+  background: white;
+  color: black;
+}
+
+/* Image Showcase Section */
+.nexus-showcase {
+  margin-top: 50px;
+}
+
+.showcase-image {
+  width: 100%;
+  width: 1000px;
+  border-radius: 20px;
+}
+
+
+/* in partnership with  */
+.partners-container {
+  height:130px;
+  width: 100%;
+  background: #0f0f0f;
+  padding: 20px 0;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.partners-title {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.partners-slider {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.partners-track {
+  display: flex;
+  gap: 80px;
+  height: 100px;
+  animation: scroll 20s linear infinite;
+  white-space: nowrap;
+}
+
+.partner-logo {
+  height: 40px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+/* Scrolling Animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+.hero-container {
+  width: 100%;
+  height: 700px;
+  background: url("../../public/1st.avif") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+  margin-top: -200px;
+}
+
+.hero-titlee {
+  font-size: 90px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  line-height: .9;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.hero-button {
+  margin-top: 20px;
+  margin-left: 255px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.arrow {
+  font-size: 20px;
+}
+
+

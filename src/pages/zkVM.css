@@ -1,0 +1,390 @@
+
+.zkvm-hero {
+    /* background-image: url('https://framerusercontent.com/images/wZrePuCAdLjXtxXdafC0FeuI.gif?scale-down-to=1024'); /* Place the background image here */
+     /*background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: #000000;
+    text-align: center;
+    height: 1100px;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .glass-cube img {
+    width: 550px;
+    height: 500px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: white;
+  }
+  
+  .hero-description {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .hero-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .arrow {
+    font-size: 14px;
+  }
+
+
+  .verifiable-container {
+    background-image: url('https://framerusercontent.com/images/rL2EpjdMictlatXinAYI1Yqrw.png?scale-down-to=2048'); /* Replace with your math formula image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: white; */
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .verifiable-title {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .verifiable-title .bold {
+    font-weight: 700;
+  }
+  
+  .verifiable-desc {
+    max-width: 850px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  
+  .github-link {
+    color: #1991ff;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  .github-link:hover {
+    text-decoration: underline;
+  }
+
+
+/* 3rdddddd */
+
+/* BuiltForPerformance.css */
+.built-for-performance-container {
+    background-color: black; 
+    color: white; 
+    padding: 80px; 
+    padding-top: 200px;
+    text-align: center; 
+    height: 500px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .built-for-performance-title {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+   
+  }
+  
+  .performance-highlight {
+    /* color: #000; */
+  }
+  
+  .built-for-performance-description {
+    font-size: 1em; 
+    line-height: 1.6; 
+    max-width: 700px; /* Limit the width of the text */
+    margin: 0 auto; /* Center the text horizontally */
+  }
+  
+  .starkware-highlight {
+    color: #6c757d; /* Example highlight color for StarkWare - adjust as needed */
+    font-style: italic; /* Italicize the StarkWare text */
+  }
+
+
+.chat-background-container {
+    background-color: #000000;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    
+    
+}
+
+.chat-background {
+    background-image: url('https://framerusercontent.com/images/cBPItJbKU8kKhvsHkG7ZrKokmQM.png?scale-down-to=2048'); /* Set the background image */
+    background-size: cover; 
+    background-position: center; 
+    width: 950px; 
+    height: 600px; 
+}
+
+/* ZkVMSpecification.css */
+.zkvm-specification-container {
+    background-color: black; /* Match the black background */
+    color: white; /* Match the white text color */
+    padding: 80px; /* Adjust padding as needed */
+    padding-top: 250px;
+    text-align: center; /* Center the content */
+    height: 1150px; /* Adjust height as needed */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+
+  }
+  
+  .zkvm-specification-title {
+    font-size: 2.5em; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space below the title */
+    font-weight: bold;
+  }
+  
+  .zkvm-specification-description {
+    font-size: 1em; /* Adjust font size as needed */
+    line-height: 1.6; /* Improve readability */
+    max-width: 700px; /* Limit the width of the text */
+    margin: 0 auto 30px; /* Center text and add space below */
+  }
+  
+  .zkvm-specification-button {
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text color */
+    border: 1px solid white; /* White border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px; /* Add some rounded corners */
+    display: inline-flex; /* Align text and icon */
+    align-items: center; /* Vertically align items */
+  }
+  
+  .arrow-icon {
+    width: 16px; /* Adjust icon size as needed */
+    height: 16px;
+    margin-left: 10px; /* Add space between text and icon */
+    filter: invert(100%); /* Make the icon white if it's a dark color */
+  }
+  
+  .zkvm-specification-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter background on hover */
+  }
+
+
+.zkvm-specification-video-container{
+    margin-top: 100px;
+
+    background-color: #fff;
+    background-image: url("https://framerusercontent.com/images/0J4xSRt79vPO9UxhUAFTStyslyo.gif");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 60%;
+
+}
+
+
+/* 6th */
+/* ZkVMComponent.css */
+.ZkVMComponent-container {
+    width: 100%;
+    /* height: 1800px; */
+    height: auto;
+    /* overflow: hidden; */
+    padding: 20px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+  .ZkVMComponent-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000000;
+    
+    
+  }
+  .ZkVMComponent-titles { 
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 60px;
+  }
+  
+  .ZkVMComponent-title { 
+   color: white;
+  }
+  
+  .ZkVMComponent-underline{
+    margin-left: 30px;
+    /* margin-right: 200px; */
+    width: 95%;
+    height: 1px;
+    background: #333232;
+    margin-bottom: 15px;
+  }
+
+
+
+.ZkVMComponent-content{
+    /* height: 1400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+/* ZkvmComponentsSection.css */
+
+.zkvm-section {
+    background-color: #000000;
+    color: #ffffff;
+    /* padding: 60px 30px; */
+    /* border-top: 1px solid #2a2a2a; */
+    font-family: 'Inter', sans-serif;
+    width: 92%;
+  }
+  
+  .zkvm-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .zkvm-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .zkvm-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .zkvm-title .highlight {
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .zkvm-text {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #cccccc;
+  }
+  
+
+
+
+
+
+/* ZkvmFeatureGrid.css */
+
+.zkvm-grid-section {
+    background-color: #0c0c0c;
+    /* padding: 60px 20px; */
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    /* width: 92%; */
+    height: 1400px;
+    background-color: #000000;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .zkvm-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+     gap: 79px;
+    /* background-color: ;  */
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* height: 300px; */
+    /* width: 100%; */
+  }
+  
+  .zkvm-grid-item {
+    text-align: center;
+    /* background-color: #1a1a1a; */
+    height: 550px;
+  }
+  
+  .zkvm-icon {
+    /* max-width: 350px; */
+    width: 80%;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .zkvm-feature-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .zkvm-feature-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cccccc;
+  }
+  

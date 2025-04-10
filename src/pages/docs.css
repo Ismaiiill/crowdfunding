@@ -1,0 +1,178 @@
+.nexus-header {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    background-color: #0d0d0d;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    border-bottom: 1px solid #2c2c2c;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 4px;
+  }
+  
+  .nav-links a:hover,
+  .nav-links a:focus {
+    color: #1e90ff;
+  }
+  
+  .nav-links a:first-child {
+    border-bottom: 2px solid #1e90ff;
+  }
+  
+  .search-section {
+    position: relative;
+  }
+  
+  .search-section input {
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 8px 12px 8px 14px;
+    color: white;
+    width: 200px;
+    outline: none;
+  }
+  
+  .search-section .shortcut {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    font-size: 12px;
+    color: #999;
+    background-color: #1a1a1a;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .cta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cta a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  .cta button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta button:hover {
+    background-color: #005bb5;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 80px 20px 40px;
+    height: 400px;
+    background: url("https://framerusercontent.com/images/4Vq9K5tclzn0VYg4oYjMy3Qb8lM.jpg?scale-down-to=2048") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    color: #ccc;
+    font-weight: 500;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+  }
+  
+  .card {
+    background-color: #1a1a1a;
+    padding: 25px 30px;
+    border-radius: 12px;
+    width: 250px;
+    border: 1px solid #2f2f2f;
+  }
+  
+  .card h4 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+
+  .nexus-footer {
+    background-color: #0d121e;
+    color: #b0b6c3;
+    text-align: center;
+    padding: 40px 20px 30px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-icons a {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .footer-icons a:hover {
+    transform: scale(1.2);
+    color: #1da1f2;
+  }
+  
